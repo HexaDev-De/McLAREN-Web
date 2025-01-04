@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+       rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" 
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" 
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>McLAREN | Sports Car Website By HexaDev</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <span class="year">1963 - 2025</span>
+        <a href="#home" class="logo"><img src="logo.png" alt="logo" /></a>
+        <a href="#" class="menu" onclick="toggleMenu();"></a>
+    </header>
+    <div class="banner">
+        <ul class="nav">
+            <li><a href="#">Supercars</a></li>
+            <li><a href="#">GT</a></li>
+            <li><a href="#">Ultimate</a></li>
+            <li><a href="#">Solus GT</a></li>
+            <li><a href="#">Legacy</a></li>
+        </ul>
+        <div class="bg-video-list">
+            <video 
+            class="bg-video mclaren-1 active"
+            src="./mclaren-1.mp4"
+            autoplay 
+            loop
+            muted
+            ></video>
+            <video 
+            class="bg-video mclaren-2"
+            src="./mclaren-2.mp4"
+            autoplay 
+            loop
+            muted
+            ></video>
+            <video 
+            class="bg-video mclaren-3"
+            src="./mclaren-3.mp4"
+            autoplay 
+            loop
+            muted
+            ></video>
+            <video 
+            class="bg-video mclaren-4"
+            src="./mclaren-4.mp4"
+            autoplay 
+            loop
+            muted
+            ></video>
+            <video 
+            class="bg-video mclaren-5"
+            src="./mclaren-5.mp4"
+            autoplay 
+            loop
+            muted
+            ></video>
+        </div>
+        <div class="content">
+            <h1>McLAREN</h1>
+            <h3 class="model mclaren-1 active">765LT SPIDER</h3>
+            <h3 class="model mclaren-2" style="color: #92ff00">ARTURA</h3>
+            <h3 class="model mclaren-3" style="color: #ff0015">750S </h3>
+            <h3 class="model mclaren-4" style="color: #ff2e00">765LT</h3>
+            <h3 class="model mclaren-5" style="color: #bbc0dd">750S SPIDER</h3>
+            <p>
+                McLaren is a British company specializing in automotive and motorsport, known for its high-performance sports cars and success in Formula 1 racing. Models like the P1 and 720S combine luxury with advanced engineering, while the racing team has achieved legendary status with numerous championships and iconic drivers. McLaren represents precision, speed, and innovation.
+            </p>
+            <a href="#">Enquire</a>
+        </div>
+        <div class="screen">
+            <div class="shadow"></div>
+                <div>
+                    <span style="--i: 0">
+                       <!-- Insert the screen video -->
+                       <!-- video data mapping -->
+                       <!-- match the video name with the class name -->
+                        <video 
+                          class="trailer mclaren-1 screen-video active"
+                          src="./mclaren-1.mp4"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                        <video 
+                          class="trailer mclaren-2 screen-video"
+                          src="./mclaren-2.mp4"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                        <video 
+                          class="trailer mclaren-3 screen-video"
+                          src="./mclaren-3.mp4"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                        <video 
+                          class="trailer mclaren-4 screen-video"
+                          src="./mclaren-4.mp4"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                        <video 
+                          class="trailer mclaren-5 screen-video"
+                          src="./mclaren-5.mp4"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                        </span>
+                    <span style="--i: 1">
+                        <video
+                          src="./trailer-1.mp4" 
+                          class="screen-video"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                    </span>
+                    <span style="--i: 2">
+                        <video
+                          src="./trailer-2.mp4" 
+                          class="screen-video"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                    </span>
+                    <span style="--i: 3">
+                        <video
+                          src="./trailer-3.mp4" 
+                          class="screen-video"
+                          autoplay 
+                          loop 
+                          muted
+                        ></video>
+                    </span>
+                </div>
+        </div>
+        <div class="gallery"> 
+            <div class="carousel">
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-1');">
+                    <img src="./mclaren-1.jpg" alt="" />
+                    <h4>765LT SPIDER</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-2');">
+                    <img src="./mclaren-2.jpg" alt="" />
+                    <h4 style="color: #92ff00">ARTURA</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-3');">
+                    <img src="./mclaren-3.jpeg" alt="" />
+                    <h4 style="color: #ff0015">750S</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-4');">
+                    <img src="./mclaren-4.jpeg" alt="" />
+                    <h4 style="color: #ff2e00">765LT</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-5');">
+                    <img src="./mclaren-5.jpeg" alt="" />
+                    <h4 style="color: #bbc0dd">750S SPIDER</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+    <ul class="sci">
+        <li>
+          <a href="https://github.com/HexaDev-De"><i class="bi bi-github"></i></a>
+        </li>
+        <li>
+          <a href="Not found"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li>
+            <a href="Not found"><i class="bi bi-facebook"></i></a>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('.carousel').carousel();
+      });
+    </script>
+</body>
+</html>
