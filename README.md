@@ -47,7 +47,7 @@ Make sure to follow the contribution guidelines before submitting changes.
 
 - **Developer**: HexaDev
 - **GitHub**: [HexaDev](https://github.com/HexaDev-De)
-- **Email**: [My Email Address: Hexa0dev@gmail.com]
+- **Email**: [My Email Address: hexa0dev@gmail.com]
 - **portfolio**: [My Portfolio](https://hexadev-de.github.io/BuildWave/)
 
 ---
